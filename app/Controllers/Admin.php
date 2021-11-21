@@ -3,16 +3,22 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use App\Models\Pelajaran;
 
 class Admin extends BaseController
 {
+    public $pelajaran;
+
     public function index()
     {
         return view('admin/index');
     }
     public function pelajaran()
     {
-        return view('admin/pelajaran/index');
+        $this->pelajaran = new Pelajaran();
+        $data = $this->pelajaran->findAll();
+        dd($data);
+        return view('admin/pelajaran/index', compact('data'));
     }
     public function detailpelajaran()
     {

@@ -8,3 +8,15 @@ CRITICAL - 2021-11-20 07:07:04 --> Invalid file: welcome_message.php
 #6 C:\laragon\www\sistem_presensi\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #7 C:\laragon\www\sistem_presensi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
 #8 {main}
+ERROR - 2021-11-20 22:56:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`username` VARCHAR NOT NULL UNIQUE,
+	`password` VARCHAR NOT NULL,
+	`e' at line 3
+ERROR - 2021-11-20 22:58:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`username` VARCHAR NOT NULL UNIQUE,
+	`password` VARCHAR NOT NULL,
+	`e' at line 3
+ERROR - 2021-11-20 23:06:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`username` VARCHAR NOT NULL UNIQUE,
+	`password` VARCHAR NOT NULL,
+	`e' at line 3

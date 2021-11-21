@@ -3,8 +3,7 @@
     <!-- Brand Logo -->
     <a href="<?= base_url(); ?>" class="brand-link">
         <!-- logoTS.jpg -->
-        <img src="<?= base_url('dist/img/adminLTELogo.png') ?>" alt="AdminLTE Logo" class="brand-image elevation-3"
-            style="opacity: .8">
+        <img src="<?= base_url('dist/img/AdminLTELogo.png') ?>" alt="AdminLTE Logo" class="brand-image elevation-3" style="opacity: .8">
         <span class="brand-text font-weight-light">Sitem Presensi</span>
     </a>
 
